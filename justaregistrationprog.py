@@ -65,7 +65,7 @@ def main_menu():
                 print("Creating Email.....")
                 time.sleep(1)
                 with open("Student.txt", "a") as op:
-                    op.write(s.print_fdetails() + f"\n---------------------------------------------------------------------------------------------")
+                    op.write(s.print_fdetails() + f"\n---------------------------------------------------------------------------------------------\n")
                 print("Registration Done")
                 print(f"Your Email is: {s.email}\nPlease Save Your Email")
                 main_menu()
@@ -94,7 +94,7 @@ def main_menu():
                 print("Creating Email.....")
                 time.sleep(1)
                 with open("Teacher.txt", "a") as op:
-                    op.write(t.print_fdetails() + f"\n---------------------------------------------------------------------------------------------")
+                    op.write(t.print_fdetails() + f"\n---------------------------------------------------------------------------------------------\n")
                 print("Registration Done")
                 print(f"Your Email is: {t.email}\nPlease Save Your Email")
                 main_menu()
@@ -150,3 +150,4 @@ def main_menu():
 main_menu()
 
 a = input()
+###### by masterghost ###
